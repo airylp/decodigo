@@ -19,7 +19,7 @@ type Usuario struct {
 }
 
 func main() {
-	usuario := &Usuario{Id: 1, Nombre: "Jose", Username: "jose", Password: "123", Email: "correo@prueba.com"}
+	usuario := &Usuario{Id: 1, Nombre: "Jose", Username: "jose1", Password: "123", Email: "correo@prueba.com"}
 
 	out, _ := xml.MarshalIndent(usuario, " ", "  ")
 	fmt.Println(string(out))
