@@ -9,7 +9,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Saludos, bienvenido a %s!", r.URL.Path[1:])
+	fmt.Fprintf(w, "Saludos, bienvenido a %s! ", r.URL.Path[1:])
 }
 
 func main() {
