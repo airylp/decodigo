@@ -1,0 +1,14 @@
+<usuarios>
+    <usuario tipo="admin">
+        <nombre>Juan</nombre>
+        <username>juan</username>
+        <password>123321</password>
+        <correo>juan1@prueba.com</correo>
+    </usuario>
+    <usuario tipo="consulta">
+        <nombre>Pedro</nombre>
+        <username>pedro</username>
+        <password>111</password>
+        <correo>pedro@prueba.com</correo>
+    </usuario>
+</usuarios>
