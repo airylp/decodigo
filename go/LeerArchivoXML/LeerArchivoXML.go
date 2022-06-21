@@ -27,7 +27,7 @@ func main() {
 
 	_ = xml.Unmarshal([]byte(datos), &usuarios)
 
-	fmt.Println("usuarios encontrados: ", len(usuarios.Usuarios))
+	fmt.Println("usuarios encontrados:", len(usuarios.Usuarios))
 	for i := 0; i < len(usuarios.Usuarios); i++ {
 		fmt.Println("tipo: ", usuarios.Usuarios[i].Tipo)
 		fmt.Println("nombre: ", usuarios.Usuarios[i].Nombre)
