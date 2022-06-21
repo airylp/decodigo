@@ -7,6 +7,7 @@ import (
 )
 
 //decodigo.com
+
 type Usuarios struct {
 	Usuarios []Usuario `xml:"usuario"`
 }
