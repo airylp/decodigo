@@ -1,0 +1,6 @@
+ <usuario id="1">
+   <nombre>Jose</nombre>
+   <username>jose</username>
+   <password>123</password>
+   <email>correo@prueba.com</email>
+ </usuario>
