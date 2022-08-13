@@ -3,7 +3,7 @@ package com.decodigo.LongestSubstring;
 public class LongestSubstring {
 
     public int lengthOfLongestSubstring(String s){
-        System.out.println("s: " + s);
+        //System.out.println("s: " + s);
         int map[] = new int[128];
 
         int l = 0;
@@ -19,7 +19,7 @@ public class LongestSubstring {
                 }
                 map[c] = i + 1;     //Se suma con uno para que cualquier elemento no esté en el índice 0
                 if(i + 1 - start > l ) {
-                    System.out.println("start: " + start + " i: " + i); //3
+                    //System.out.println("start: " + start + " i: " + i); //3
                     l = i + 1 - start ;
                 }
             }
