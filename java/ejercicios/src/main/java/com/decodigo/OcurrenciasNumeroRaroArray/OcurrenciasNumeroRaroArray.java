@@ -26,7 +26,7 @@ public class OcurrenciasNumeroRaroArray {
     }
     
     public static void main(String args[]) {
-        int []a = {1, 1, 2, 2, 2, 6 ,6 , 8, 4, 4 , 8};
+        int []a = {1, 1, 2, 2, 9, 6 ,6 , 8, 4, 4 , 8};
         
         OcurrenciasNumeroRaroArray o = new OcurrenciasNumeroRaroArray();
         System.out.println("resultado: "+ o.solucion(a));
