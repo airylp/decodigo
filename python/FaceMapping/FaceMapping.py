@@ -36,7 +36,7 @@ while True:
             cv2.circle(image, (x, y), 2, (0, 255, 0), -1)
     
     # Se muestra una ventana con la imagen
-    cv2.imshow("Output", image)
+    cv2.imshow("Mapeo de Rostros", image)
     
     # La ventana cierra con la tecla Esc
     k = cv2.waitKey(5) & 0xFF
