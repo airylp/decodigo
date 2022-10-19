@@ -17,7 +17,7 @@ cap = cv2.VideoCapture(0)
 while True:
     # Se obtiene la imagen de la webcam
     _, image = cap.read()
-    # Converting the image to gray scale
+
     # Se convierte la imagen a escala de grises
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         
